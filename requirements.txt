@@ -5,4 +5,7 @@ seaborn
 streamlit
 joblib
 plotly
+scikit-learn
+
+
 
