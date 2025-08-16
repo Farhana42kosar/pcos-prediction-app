@@ -1,0 +1,11 @@
+Libraries Used in Project
+
+Libraries                  Description
+
+pandas       For handling and processing datasets (reading CSVs, manipulating tables, etc.).
+numpy        For numerical operations and array handling used in data preprocessing or calculations.
+matplotlib   For creating static visualizations (like charts and plots) during analysis.
+seaborn      For statistical data visualizations with more style options than matplotlib.
+streamlit    For building the interactive web app UI for your PCOS prediction system.
+joblib       For saving and loading trained machine learning models efficiently.
+plotly       For interactive visualizations (like the period cramps gauge chart).
