@@ -133,8 +133,6 @@ class DataPreprocessor:
     def fit_transform(self, df, balance_target=True):
         df = self.normalize_columns(df)
 
-        print("Normalized columns:")
-        print(df.columns.tolist())
 
         df = self.rename_columns(df)   # ✅ ADD HERE
 
