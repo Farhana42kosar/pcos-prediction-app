@@ -4,3 +4,6 @@ pipeline/__pycache__/
 myenv/
 .env
 data/*.csv
+artifacts/*.pkl
+artifacts/metrics.json
+

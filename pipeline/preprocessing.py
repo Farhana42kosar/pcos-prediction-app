@@ -128,6 +128,7 @@ class DataPreprocessor:
             ("num", numeric_pipeline, self.numeric_features),
             ("cat", categorical_pipeline, self.categorical_features)
         ])
+    
 
     # ---------------- Fit & Transform (Training) ----------------
     def fit_transform(self, df, balance_target=True):
